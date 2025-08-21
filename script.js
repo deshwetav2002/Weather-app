@@ -1,4 +1,4 @@
-const apiKey="ac355f3af158a11ca2f391bd3af72912";
+const apiKey="API";
 window.addEventListener("load", ()=>{
     if(navigator.geolocation){
         navigator.geolocation.getCurrentPosition((position)=>{
@@ -110,4 +110,5 @@ function dayForecast(forecast){
         document.querySelector('.weekF').appendChild(div)
     
     }
+
 }
